@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "Tad's Flickr Toy";
+}
+
+@using FlickrService;
+
+<h2 class="refresh">Photos Recently Updated to Flickr<span>Click me to refresh the page!</span></h2>
+
+<ul class="photo-list">
+@foreach (var url in ViewData["flickrphotos"] as List<FlickrPhoto>)
+{
+    <li class="photo-item"><a class="name" href='@url.WebPageUrl'><img src='@url.ImageUrl' alt='Picture' /></a></li>
+}
+</ul>
+
+<h2 class="scroll-to-top">Scroll back up and refresh</h2>

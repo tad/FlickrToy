@@ -1,0 +1,1 @@
+C:\Users\Tad\Documents\Visual Studio 2010\Projects\TadsFlickrToy\TadsFlickrToy.Azure\bin\Debug\ServiceConfiguration.cscfg

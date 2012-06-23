@@ -1,0 +1,15 @@
+c:\Users\Tad\Documents\Visual Studio 2010\Projects\TadsFlickrToy\FlickrServiceTester\bin\Debug\FlickrServiceTester.exe
+c:\Users\Tad\Documents\Visual Studio 2010\Projects\TadsFlickrToy\FlickrServiceTester\bin\Debug\FlickrServiceTester.pdb
+c:\Users\Tad\Documents\Visual Studio 2010\Projects\TadsFlickrToy\FlickrServiceTester\bin\Debug\FlickrService.dll
+c:\Users\Tad\Documents\Visual Studio 2010\Projects\TadsFlickrToy\FlickrServiceTester\bin\Debug\System.Net.Http.dll
+c:\Users\Tad\Documents\Visual Studio 2010\Projects\TadsFlickrToy\FlickrServiceTester\bin\Debug\FlickrService.pdb
+c:\Users\Tad\Documents\Visual Studio 2010\Projects\TadsFlickrToy\FlickrServiceTester\bin\Debug\System.Net.Http.xml
+c:\Users\Tad\Documents\Visual Studio 2010\Projects\TadsFlickrToy\FlickrServiceTester\obj\x86\Debug\FlickrServiceTester.exe
+c:\Users\Tad\Documents\Visual Studio 2010\Projects\TadsFlickrToy\FlickrServiceTester\obj\x86\Debug\FlickrServiceTester.pdb
+c:\Users\Tad\Documents\Visual Studio 2010\Projects\TadsFlickrToy\FlickrServiceTester\bin\Debug\Newtonsoft.Json.dll
+c:\Users\Tad\Documents\Visual Studio 2010\Projects\TadsFlickrToy\FlickrServiceTester\bin\Debug\System.Net.Http.Formatting.dll
+c:\Users\Tad\Documents\Visual Studio 2010\Projects\TadsFlickrToy\FlickrServiceTester\bin\Debug\System.Net.Http.WebRequest.dll
+c:\Users\Tad\Documents\Visual Studio 2010\Projects\TadsFlickrToy\FlickrServiceTester\bin\Debug\Newtonsoft.Json.xml
+c:\Users\Tad\Documents\Visual Studio 2010\Projects\TadsFlickrToy\FlickrServiceTester\bin\Debug\System.Net.Http.Formatting.xml
+c:\Users\Tad\Documents\Visual Studio 2010\Projects\TadsFlickrToy\FlickrServiceTester\bin\Debug\System.Net.Http.WebRequest.xml
+C:\Users\Tad\Documents\Visual Studio 2010\Projects\TadsFlickrToy\FlickrServiceTester\obj\x86\Debug\FlickrServiceTester.csprojResolveAssemblyReference.cache

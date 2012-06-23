@@ -1,0 +1,9 @@
+C:\Users\Tad\Documents\Visual Studio 2010\Projects\TadsFlickrToy\FlickrService\bin\Release\FlickrService.dll
+C:\Users\Tad\Documents\Visual Studio 2010\Projects\TadsFlickrToy\FlickrService\bin\Release\FlickrService.pdb
+C:\Users\Tad\Documents\Visual Studio 2010\Projects\TadsFlickrToy\FlickrService\bin\Release\System.Net.Http.dll
+C:\Users\Tad\Documents\Visual Studio 2010\Projects\TadsFlickrToy\FlickrService\bin\Release\System.Net.Http.WebRequest.dll
+C:\Users\Tad\Documents\Visual Studio 2010\Projects\TadsFlickrToy\FlickrService\bin\Release\System.Net.Http.xml
+C:\Users\Tad\Documents\Visual Studio 2010\Projects\TadsFlickrToy\FlickrService\bin\Release\System.Net.Http.WebRequest.xml
+C:\Users\Tad\Documents\Visual Studio 2010\Projects\TadsFlickrToy\FlickrService\obj\Release\FlickrService.csprojResolveAssemblyReference.cache
+C:\Users\Tad\Documents\Visual Studio 2010\Projects\TadsFlickrToy\FlickrService\obj\Release\FlickrService.dll
+C:\Users\Tad\Documents\Visual Studio 2010\Projects\TadsFlickrToy\FlickrService\obj\Release\FlickrService.pdb

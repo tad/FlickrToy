@@ -1,0 +1,9 @@
+This is Tad's FlickrToy.
+
+All this application does is to get and display recently uploaded photos to Flickr.
+
+NOTE: Since these are photos that anyone might have uploaded to Flickr, it is possible that the web app will display
+NSFW photos.  This is relatively rare, but you will see some if you keep refreshing.
+
+I've decided to stop refactoring and re-do the code in a TDD fashion.  I will create another Git repository for that
+when it's ready.

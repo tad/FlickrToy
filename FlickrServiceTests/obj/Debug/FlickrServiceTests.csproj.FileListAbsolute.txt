@@ -1,0 +1,10 @@
+C:\Users\TDonaghe\Documents\GitHub\FlickrToy\FlickrServiceTests\obj\Debug\FlickrServiceTests.csprojResolveAssemblyReference.cache
+C:\Users\TDonaghe\Documents\GitHub\FlickrToy\FlickrServiceTests\bin\Debug\FlickrServiceTests.dll
+C:\Users\TDonaghe\Documents\GitHub\FlickrToy\FlickrServiceTests\bin\Debug\FlickrServiceTests.pdb
+C:\Users\TDonaghe\Documents\GitHub\FlickrToy\FlickrServiceTests\bin\Debug\FlickrService.dll
+C:\Users\TDonaghe\Documents\GitHub\FlickrToy\FlickrServiceTests\bin\Debug\Moq.dll
+C:\Users\TDonaghe\Documents\GitHub\FlickrToy\FlickrServiceTests\bin\Debug\FlickrService.pdb
+C:\Users\TDonaghe\Documents\GitHub\FlickrToy\FlickrServiceTests\bin\Debug\Moq.pdb
+C:\Users\TDonaghe\Documents\GitHub\FlickrToy\FlickrServiceTests\bin\Debug\Moq.xml
+C:\Users\TDonaghe\Documents\GitHub\FlickrToy\FlickrServiceTests\obj\Debug\FlickrServiceTests.dll
+C:\Users\TDonaghe\Documents\GitHub\FlickrToy\FlickrServiceTests\obj\Debug\FlickrServiceTests.pdb

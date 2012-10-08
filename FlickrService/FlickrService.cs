@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Net.Http;
@@ -11,78 +10,48 @@ namespace FlickrService
 {
     public class FlickrService : IFlickrService
     {
+        private const string _address = @"http://api.flickr.com/services/rest/?method=flickr.photos.getRecent&api_key=b79df6b678836fd497f972e39b178b85&format=rest";
+        private readonly HttpClient _client;
+        private readonly IFlickrPhotoUrl _flickrPhotoUrl;
+        private readonly IFlickrWebPageUrl _flickrWebPageUrl;
+
+
+        public FlickrService(HttpClient client, IFlickrPhotoUrl flickrPhotoUrl, IFlickrWebPageUrl flickrWebPageUrl)
+        {
+            _client = client;
+            _flickrPhotoUrl = flickrPhotoUrl;
+            _flickrWebPageUrl = flickrWebPageUrl;
+        }
+
+        public FlickrService()
+        {
+            _client = new HttpClient();
+            _flickrPhotoUrl = new FlickrPhotoUrl();
+            _flickrWebPageUrl = new FlickrWebPageUrl();
+        }
 
         public List<FlickrPhoto> GetRecentPhotos()
-        {
-            var address = @" http://api.flickr.com/services/rest/?method=flickr.photos.getRecent&api_key=b79df6b678836fd497f972e39b178b85&format=rest";
-
-            var photoList = new List<FlickrPhoto>();
-
-            var doc = new XDocument();
-
-            var client = new HttpClient();          
-
-            var asyncTask = client.GetAsync(address).ContinueWith(
-                (requestTask) =>
-                {
-                    var response = requestTask.Result;
-                    response.EnsureSuccessStatusCode();
-
-                    var responseTask = response.Content.ReadAsStringAsync().ContinueWith(
-                        (readTask) =>
-                        {
-                            doc = XDocument.Parse(readTask.Result);
-
-                            foreach (var element in doc.Descendants("photo"))
-                            {
-                                var photo = new FlickrPhoto
-                                {
-                                    ImageUrl = GetFlickrUrl(element),
-                                    WebPageUrl = GetFlickrWebPageUrl(element)
-                                };
-
-                                photoList.Add(photo);
-                            }
-                        });
-                    Task.WaitAll(responseTask);
-                });
-
-            Task.WaitAll(asyncTask);
-
+        {            
+            var photoList = GetPhotosFromFlickr(_address);
             return photoList;
         }
 
-        protected  string GetFlickrUrl(XElement element)
+        private List<FlickrPhoto> GetPhotosFromFlickr(string address)
         {
-            var farm = element.Attribute("farm").Value;
-            var server = element.Attribute("server").Value;
-            var id = element.Attribute("id").Value;
-            var secret = element.Attribute("secret").Value;
-
-            if (null == farm || null == server || null == id || null == secret)
-            {
-                return "";
-            }
-
-            var url = @"http://farm" + farm + @".staticflickr.com/"
-                + server + @"/" + id + @"_" + secret + @"_m.jpg";
-
-            return url;
+            var content = GetRecentPhotosAsXmlFromFlickr(address);
+            var doc = XDocument.Parse(content);
+            return doc.Descendants("photo").Select(element => new FlickrPhoto
+                {
+                    ImageUrl = _flickrPhotoUrl.SetElementAndReturnSelf(element).GetFlickrPhotoUrl(), 
+                    WebPageUrl = _flickrWebPageUrl.SetElementAndReturnSelf(element).GetFlickrWebPageUrl()
+                }).ToList();
         }
 
-        protected string GetFlickrWebPageUrl(XElement element)
+        private string GetRecentPhotosAsXmlFromFlickr(string address)
         {
-            var userId = element.Attribute("owner").Value;
-            var id = element.Attribute("id").Value;
-
-            if (null == userId || null == id)
-            {
-                return "";
-            }
-
-            var url = @"http://www.flickr.com/photos/" + userId + @"/" + id;
-
-            return url;
+            var responseMessage = _client.GetAsync(address).Result;
+            responseMessage.EnsureSuccessStatusCode();
+            return responseMessage.Content.ReadAsStringAsync().Result;
         }
     }
 }

@@ -7,3 +7,14 @@ c:\Users\Tad\Documents\Visual Studio 2010\Projects\TadsFlickrToy\FlickrService\b
 c:\Users\Tad\Documents\Visual Studio 2010\Projects\TadsFlickrToy\FlickrService\obj\Debug\FlickrService.dll
 c:\Users\Tad\Documents\Visual Studio 2010\Projects\TadsFlickrToy\FlickrService\obj\Debug\FlickrService.pdb
 C:\Users\Tad\Documents\Visual Studio 2010\Projects\TadsFlickrToy\FlickrService\obj\Debug\FlickrService.csprojResolveAssemblyReference.cache
+C:\Users\TDonaghe\Documents\GitHub\FlickrToy\FlickrService\bin\Debug\FlickrService.dll
+C:\Users\TDonaghe\Documents\GitHub\FlickrToy\FlickrService\bin\Debug\FlickrService.pdb
+C:\Users\TDonaghe\Documents\GitHub\FlickrToy\FlickrService\bin\Debug\System.Net.Http.dll
+C:\Users\TDonaghe\Documents\GitHub\FlickrToy\FlickrService\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\TDonaghe\Documents\GitHub\FlickrToy\FlickrService\bin\Debug\System.Net.Http.WebRequest.dll
+C:\Users\TDonaghe\Documents\GitHub\FlickrToy\FlickrService\bin\Debug\System.Net.Http.xml
+C:\Users\TDonaghe\Documents\GitHub\FlickrToy\FlickrService\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\TDonaghe\Documents\GitHub\FlickrToy\FlickrService\bin\Debug\System.Net.Http.WebRequest.xml
+C:\Users\TDonaghe\Documents\GitHub\FlickrToy\FlickrService\obj\Debug\FlickrService.dll
+C:\Users\TDonaghe\Documents\GitHub\FlickrToy\FlickrService\obj\Debug\FlickrService.pdb
+C:\Users\TDonaghe\Documents\GitHub\FlickrToy\FlickrService\obj\Debug\FlickrService.csprojResolveAssemblyReference.cache

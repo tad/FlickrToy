@@ -1,0 +1,6 @@
+<Modules>
+  <Module PersistentId="B7CEBA94-CF78-4F50-815F-EEB408021663" ModuleId="FlickrServiceTester" />
+  <Module PersistentId="8160357F-87B1-45EF-A59D-9E7B5C8E70C0" ModuleId="FlickrService" />
+  <Module PersistentId="8160357F-87B1-45EF-A59D-9E7B5C8E70C0" ModuleId="FlickrService_1" />
+  <Module PersistentId="D32CC188-F3A7-4CCE-B882-3A072F27F2C3" ModuleId="FlickrServiceTests" />
+</Modules>

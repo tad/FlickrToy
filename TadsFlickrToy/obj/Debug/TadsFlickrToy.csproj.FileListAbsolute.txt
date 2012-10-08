@@ -15,3 +15,18 @@ C:\Users\Tad\Documents\Visual Studio 2010\Projects\TadsFlickrToy\TadsFlickrToy\b
 C:\Users\Tad\Documents\Visual Studio 2010\Projects\TadsFlickrToy\TadsFlickrToy\bin\Microsoft.WindowsAzure.Diagnostics.dll
 C:\Users\Tad\Documents\Visual Studio 2010\Projects\TadsFlickrToy\TadsFlickrToy\bin\Microsoft.WindowsAzure.StorageClient.dll
 C:\Users\Tad\Documents\Visual Studio 2010\Projects\TadsFlickrToy\TadsFlickrToy\bin\Microsoft.WindowsAzure.Diagnostics.xml
+C:\Users\TDonaghe\Documents\GitHub\FlickrToy\TadsFlickrToy\bin\TadsFlickrToy.dll
+C:\Users\TDonaghe\Documents\GitHub\FlickrToy\TadsFlickrToy\bin\TadsFlickrToy.pdb
+C:\Users\TDonaghe\Documents\GitHub\FlickrToy\TadsFlickrToy\bin\EntityFramework.dll
+C:\Users\TDonaghe\Documents\GitHub\FlickrToy\TadsFlickrToy\bin\FlickrService.dll
+C:\Users\TDonaghe\Documents\GitHub\FlickrToy\TadsFlickrToy\bin\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\TDonaghe\Documents\GitHub\FlickrToy\TadsFlickrToy\bin\Microsoft.WindowsAzure.StorageClient.dll
+C:\Users\TDonaghe\Documents\GitHub\FlickrToy\TadsFlickrToy\bin\System.Net.Http.dll
+C:\Users\TDonaghe\Documents\GitHub\FlickrToy\TadsFlickrToy\bin\System.Net.Http.WebRequest.dll
+C:\Users\TDonaghe\Documents\GitHub\FlickrToy\TadsFlickrToy\bin\FlickrService.pdb
+C:\Users\TDonaghe\Documents\GitHub\FlickrToy\TadsFlickrToy\bin\EntityFramework.xml
+C:\Users\TDonaghe\Documents\GitHub\FlickrToy\TadsFlickrToy\bin\System.Net.Http.xml
+C:\Users\TDonaghe\Documents\GitHub\FlickrToy\TadsFlickrToy\bin\System.Net.Http.WebRequest.xml
+C:\Users\TDonaghe\Documents\GitHub\FlickrToy\TadsFlickrToy\obj\Debug\TadsFlickrToy.csprojResolveAssemblyReference.cache
+C:\Users\TDonaghe\Documents\GitHub\FlickrToy\TadsFlickrToy\obj\Debug\TadsFlickrToy.dll
+C:\Users\TDonaghe\Documents\GitHub\FlickrToy\TadsFlickrToy\obj\Debug\TadsFlickrToy.pdb

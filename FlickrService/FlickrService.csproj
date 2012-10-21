@@ -51,10 +51,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FlickrHttpClient.cs" />
     <Compile Include="FlickrPhoto.cs" />
     <Compile Include="FlickrPhotoUrl.cs" />
     <Compile Include="FlickrService.cs" />
     <Compile Include="FlickrWebPageUrl.cs" />
+    <Compile Include="IFlickrHttpClient.cs" />
     <Compile Include="IFlickrPhotoUrl.cs" />
     <Compile Include="IFlickrService.cs" />
     <Compile Include="IFlickrWebPageUrl.cs" />

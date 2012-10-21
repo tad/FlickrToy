@@ -2,26 +2,31 @@
   <RecentFiles>
     <File id="8160357F-87B1-45EF-A59D-9E7B5C8E70C0/f:IFlickrWebPageUrl.cs" caret="92" fromTop="4" />
     <File id="8160357F-87B1-45EF-A59D-9E7B5C8E70C0/f:IFlickrService.cs" caret="33" fromTop="0" />
-    <File id="D32CC188-F3A7-4CCE-B882-3A072F27F2C3/f:UnitTest1.cs" caret="239" fromTop="12" />
-    <File id="D32CC188-F3A7-4CCE-B882-3A072F27F2C3/f:SpecificationContext.cs" caret="310" fromTop="12" />
-    <File id="8160357F-87B1-45EF-A59D-9E7B5C8E70C0/f:IFlickrPhotoUrl.cs" caret="160" fromTop="7" />
-    <File id="D32CC188-F3A7-4CCE-B882-3A072F27F2C3/f:FlickrPhotoUrlUnitTests.cs" caret="145" fromTop="6" />
-    <File id="D32CC188-F3A7-4CCE-B882-3A072F27F2C3/f:FlickrWebPageUrlUnitTests.cs" caret="538" fromTop="11" />
-    <File id="D32CC188-F3A7-4CCE-B882-3A072F27F2C3/f:FlickrServiceUnitTests.cs" caret="949" fromTop="24" />
-    <File id="8160357F-87B1-45EF-A59D-9E7B5C8E70C0/f:FlickrService.cs" caret="1398" fromTop="11" />
+    <File id="D32CC188-F3A7-4CCE-B882-3A072F27F2C3/f:UnitTest1.cs" caret="0" fromTop="0" />
+    <File id="D32CC188-F3A7-4CCE-B882-3A072F27F2C3/f:SpecificationContext.cs" caret="0" fromTop="0" />
     <File id="8160357F-87B1-45EF-A59D-9E7B5C8E70C0/f:FlickrWebPageUrl.cs" caret="998" fromTop="19" />
-    <File id="8160357F-87B1-45EF-A59D-9E7B5C8E70C0/f:FlickrPhotoUrl.cs" caret="1271" fromTop="7" />
+    <File id="8160357F-87B1-45EF-A59D-9E7B5C8E70C0/f:IFlickrPhotoUrl.cs" caret="160" fromTop="7" />
+    <File id="8160357F-87B1-45EF-A59D-9E7B5C8E70C0/f:FlickrPhoto.cs" caret="0" fromTop="0" />
+    <File id="8160357F-87B1-45EF-A59D-9E7B5C8E70C0/f:packages.config" caret="0" fromTop="0" />
+    <File id="8160357F-87B1-45EF-A59D-9E7B5C8E70C0/f:FlickrPhotoUrl.cs" caret="0" fromTop="0" />
+    <File id="8160357F-87B1-45EF-A59D-9E7B5C8E70C0/f:IFlickrHttpClient.cs" caret="0" fromTop="0" />
+    <File id="D32CC188-F3A7-4CCE-B882-3A072F27F2C3/f:FlickrPhotoUrlUnitTests.cs" caret="1321" fromTop="23" />
+    <File id="D32CC188-F3A7-4CCE-B882-3A072F27F2C3/f:FlickrServiceUnitTests.cs" caret="557" fromTop="17" />
+    <File id="8160357F-87B1-45EF-A59D-9E7B5C8E70C0/f:FlickrService.cs" caret="969" fromTop="10" />
+    <File id="D32CC188-F3A7-4CCE-B882-3A072F27F2C3/f:FlickrWebPageUrlUnitTests.cs" caret="1348" fromTop="26" />
+    <File id="8160357F-87B1-45EF-A59D-9E7B5C8E70C0/f:FlickrHttpClient.cs" caret="114" fromTop="5" />
   </RecentFiles>
   <RecentEdits>
     <File id="8160357F-87B1-45EF-A59D-9E7B5C8E70C0/f:IFlickrPhotoUrl.cs" caret="183" fromTop="7" />
     <File id="8160357F-87B1-45EF-A59D-9E7B5C8E70C0/f:FlickrPhotoUrl.cs" caret="533" fromTop="23" />
     <File id="8160357F-87B1-45EF-A59D-9E7B5C8E70C0/f:IFlickrWebPageUrl.cs" caret="92" fromTop="4" />
     <File id="8160357F-87B1-45EF-A59D-9E7B5C8E70C0/f:FlickrWebPageUrl.cs" caret="291" fromTop="14" />
-    <File id="8160357F-87B1-45EF-A59D-9E7B5C8E70C0/f:FlickrService.cs" caret="1384" fromTop="13" />
     <File id="8160357F-87B1-45EF-A59D-9E7B5C8E70C0/f:IFlickrService.cs" caret="33" fromTop="0" />
     <File id="D32CC188-F3A7-4CCE-B882-3A072F27F2C3/f:SpecificationContext.cs" caret="509" fromTop="25" />
     <File id="D32CC188-F3A7-4CCE-B882-3A072F27F2C3/f:FlickrWebPageUrlUnitTests.cs" caret="1348" fromTop="32" />
     <File id="D32CC188-F3A7-4CCE-B882-3A072F27F2C3/f:FlickrPhotoUrlUnitTests.cs" caret="1321" fromTop="32" />
-    <File id="D32CC188-F3A7-4CCE-B882-3A072F27F2C3/f:FlickrServiceUnitTests.cs" caret="949" fromTop="24" />
+    <File id="8160357F-87B1-45EF-A59D-9E7B5C8E70C0/f:FlickrHttpClient.cs" caret="22" fromTop="0" />
+    <File id="8160357F-87B1-45EF-A59D-9E7B5C8E70C0/f:FlickrService.cs" caret="813" fromTop="16" />
+    <File id="D32CC188-F3A7-4CCE-B882-3A072F27F2C3/f:FlickrServiceUnitTests.cs" caret="2291" fromTop="32" />
   </RecentEdits>
 </RecentFiles>

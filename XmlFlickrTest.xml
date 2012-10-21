@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<rsp stat="ok">
+  <photos page="1" pages="10" perpage="100" total="1000">   
+    <photo id="8109312203" owner="56616467@N06" secret="1bba9f139d" server="8468" farm="9" title="2012 Tyler Rose Festival Parade" ispublic="1" isfriend="0" isfamily="0" />
+    <photo id="8109312231" owner="61151278@N08" secret="6daf9f7e54" server="8186" farm="9" title="DSC_9830-2" ispublic="1" isfriend="0" isfamily="0" />
+    <photo id="8109312423" owner="10496603@N07" secret="0aa8ef567a" server="8463" farm="9" title="F5B_011_0384_CO -uld" ispublic="1" isfriend="0" isfamily="0" />
+    <photo id="8109312469" owner="12798498@N05" secret="d201366584" server="8051" farm="9" title="MCM_2262" ispublic="1" isfriend="0" isfamily="0" />    
+  </photos>
+</rsp>

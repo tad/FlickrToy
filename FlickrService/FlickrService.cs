@@ -10,22 +10,22 @@ namespace FlickrService
 {
     public class FlickrService : IFlickrService
     {
-        private const string _address = @"http://api.flickr.com/services/rest/?method=flickr.photos.getRecent&api_key=YOURKEYGOESHERE&format=rest";
-        private readonly HttpClient _client;
+        private const string _address = @"http://api.flickr.com/services/rest/?method=flickr.photos.getRecent&api_key=b79df6b678836fd497f972e39b178b85&format=rest";
+        private readonly IFlickrHttpClient _client;
         private readonly IFlickrPhotoUrl _flickrPhotoUrl;
         private readonly IFlickrWebPageUrl _flickrWebPageUrl;
 
 
-        public FlickrService(HttpClient client, IFlickrPhotoUrl flickrPhotoUrl, IFlickrWebPageUrl flickrWebPageUrl)
+        public FlickrService(IFlickrHttpClient flickrHttpClient)
         {
-            _client = client;
-            _flickrPhotoUrl = flickrPhotoUrl;
-            _flickrWebPageUrl = flickrWebPageUrl;
+            _client = flickrHttpClient;
+            _flickrPhotoUrl = new FlickrPhotoUrl();
+            _flickrWebPageUrl = new FlickrWebPageUrl();
         }
 
         public FlickrService()
         {
-            _client = new HttpClient();
+            _client = new FlickrHttpClient();
             _flickrPhotoUrl = new FlickrPhotoUrl();
             _flickrWebPageUrl = new FlickrWebPageUrl();
         }
@@ -38,20 +38,13 @@ namespace FlickrService
 
         private List<FlickrPhoto> GetPhotosFromFlickr(string address)
         {
-            var content = GetRecentPhotosAsXmlFromFlickr(address);
+            var content = _client.GetRecentPhotosAsXmlFromFlickr(address);
             var doc = XDocument.Parse(content);
             return doc.Descendants("photo").Select(element => new FlickrPhoto
                 {
                     ImageUrl = _flickrPhotoUrl.SetElementAndReturnSelf(element).GetFlickrPhotoUrl(), 
                     WebPageUrl = _flickrWebPageUrl.SetElementAndReturnSelf(element).GetFlickrWebPageUrl()
                 }).ToList();
-        }
-
-        private string GetRecentPhotosAsXmlFromFlickr(string address)
-        {
-            var responseMessage = _client.GetAsync(address).Result;
-            responseMessage.EnsureSuccessStatusCode();
-            return responseMessage.Content.ReadAsStringAsync().Result;
         }
     }
 }

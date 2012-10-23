@@ -31,17 +31,32 @@ namespace FlickrService
 
         private void Initialize()
         {
-            ThrowExceptionIfElementIsNull();
+            CheckElementForNulls();
             _farm = _element.Attribute("farm").Value;
             _server = _element.Attribute("server").Value;
             _id = _element.Attribute("id").Value;
             _secret = _element.Attribute("secret").Value;  
         }
 
-        private void ThrowExceptionIfElementIsNull()
+        private void CheckElementForNulls()
+        {
+            ValidateElement();
+            ValidateAttribute("farm");
+            ValidateAttribute("server");
+            ValidateAttribute("id");
+            ValidateAttribute("secret");
+        }
+
+        private void ValidateElement()
         {
             if (_element == null)
                 throw new Exception("XElement can not be null.");
+        }
+
+        private void ValidateAttribute(string attributeName)
+        {
+            if (_element.Attribute(attributeName) == null)
+                throw new Exception(string.Format("{0} element can not be null.", attributeName));
         }
 
         public string GetFlickrPhotoUrl()

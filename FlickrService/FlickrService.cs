@@ -1,16 +1,13 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Net.Http;
 using System.Xml.Linq;
-using System.Threading.Tasks;
 
 
 namespace FlickrService
 {
     public class FlickrService : IFlickrService
     {
-        private const string _address = @"http://api.flickr.com/services/rest/?method=flickr.photos.getRecent&api_key=YOURAPIKEYHERE&format=rest";
+        private const string Address = @"http://api.flickr.com/services/rest/?method=flickr.photos.getRecent&api_key=YOURAPIKEYHERE&format=rest";
         private readonly IFlickrHttpClient _client;
         private readonly IFlickrPhotoUrl _flickrPhotoUrl;
         private readonly IFlickrWebPageUrl _flickrWebPageUrl;
@@ -32,7 +29,7 @@ namespace FlickrService
 
         public List<FlickrPhoto> GetRecentPhotos()
         {            
-            var photoList = GetPhotosFromFlickr(_address);
+            var photoList = GetPhotosFromFlickr(Address);
             return photoList;
         }
 

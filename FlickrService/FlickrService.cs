@@ -14,7 +14,7 @@ namespace FlickrService
 
         public List<FlickrPhoto> GetRecentPhotos()
         {
-            var address = @" http://api.flickr.com/services/rest/?method=flickr.photos.getRecent&api_key=b79df6b678836fd497f972e39b178b85&format=rest";
+            var address = @" http://api.flickr.com/services/rest/?method=flickr.photos.getRecent&api_key=YOURAPIKEYHERE&format=rest";
 
             var photoList = new List<FlickrPhoto>();
 

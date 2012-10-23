@@ -10,7 +10,7 @@ namespace FlickrService
 {
     public class FlickrService : IFlickrService
     {
-        private const string _address = @"http://api.flickr.com/services/rest/?method=flickr.photos.getRecent&api_key=b79df6b678836fd497f972e39b178b85&format=rest";
+        private const string _address = @"http://api.flickr.com/services/rest/?method=flickr.photos.getRecent&api_key=YOURAPIKEYHERE&format=rest";
         private readonly IFlickrHttpClient _client;
         private readonly IFlickrPhotoUrl _flickrPhotoUrl;
         private readonly IFlickrWebPageUrl _flickrWebPageUrl;

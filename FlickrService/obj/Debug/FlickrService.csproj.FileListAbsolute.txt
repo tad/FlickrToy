@@ -15,6 +15,6 @@ C:\Users\TDonaghe\Documents\GitHub\FlickrToy\FlickrService\bin\Debug\System.Net.
 C:\Users\TDonaghe\Documents\GitHub\FlickrToy\FlickrService\bin\Debug\System.Net.Http.xml
 C:\Users\TDonaghe\Documents\GitHub\FlickrToy\FlickrService\bin\Debug\System.Net.Http.Formatting.xml
 C:\Users\TDonaghe\Documents\GitHub\FlickrToy\FlickrService\bin\Debug\System.Net.Http.WebRequest.xml
+C:\Users\TDonaghe\Documents\GitHub\FlickrToy\FlickrService\obj\Debug\FlickrService.csprojResolveAssemblyReference.cache
 C:\Users\TDonaghe\Documents\GitHub\FlickrToy\FlickrService\obj\Debug\FlickrService.dll
 C:\Users\TDonaghe\Documents\GitHub\FlickrToy\FlickrService\obj\Debug\FlickrService.pdb
-C:\Users\TDonaghe\Documents\GitHub\FlickrToy\FlickrService\obj\Debug\FlickrService.csprojResolveAssemblyReference.cache

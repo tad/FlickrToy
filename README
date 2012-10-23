@@ -1,0 +1,12 @@
+This is Tad's FlickrToy.
+
+All this application does is to get and display recently uploaded photos to Flickr.
+
+NOTE: Since these are photos that anyone might have uploaded to Flickr, it is possible that the web app will display
+NSFW photos.  This is relatively rare, but you will see some if you keep refreshing.
+
+NOTE:
+You will need to provide your own FlickrAPI key in order to get the code to function properly.  Please take a look at
+Flickr's developer documentation.
+
+The code goes into the URL at the top of the FlickrService.cs file.

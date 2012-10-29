@@ -40,7 +40,7 @@ namespace FlickrServiceTests
         public void it_should_return_proper_url()
         {
             const string expectedUrl = @"http://farm9.staticflickr.com/8450/8067114904_c85d1d656c_m.jpg";
-            Assert.AreEqual("sdkjsagkjadgh", _url);
+            Assert.AreEqual("AAASJKGJDKER", _url);
 
         }
     }
